@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaPlay, FaArrowUp, FaCube, FaUtensils } from "react-icons/fa";
+import { FaPlay, FaCube} from "react-icons/fa";
 
 export default function HeroSection() {
   return (
-    <section className="bg-[#FFFF] min-h-screen flex items-center justify-center px-6 py-10 overflow-hidden">
+    <section className="bg-[#FFFF] min-h-screen flex items-center justify-center px-6 py-8 overflow-hidden">
       <div className="max-w-7xl w-full grid md:grid-cols-2 gap-7 items-center">
         {/* LEFT SIDE */}
         <motion.div

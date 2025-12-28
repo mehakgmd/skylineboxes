@@ -39,7 +39,6 @@
 // }
 
 
-'use client'
 
 import ProductCarousel from '@/components/ProductCarousel'
 import { serverClient } from '@/sanity/lib/client'
@@ -52,8 +51,9 @@ import WhyChooseSection from "@/components/WhyChooseUs";
 import Card from "@/components/Card";
 import Image from "next/image";
 import Product from "@/sanity/schemaTypes/Product";
-export default async function Page() {
-  const products: oneProductType[] = await serverClient.fetch(
+import Benefits from '@/components/Benefits';
+import EcoFriendlySection from '@/components/Order-Processing';
+const products: oneProductType[] = await serverClient.fetch(
     `*[_type == "packagingProduct"]{
       _id,
       title,
@@ -70,9 +70,7 @@ export default async function Page() {
       }
     }`
   )
-
-  console.log('✅ Fetched products:', products)
-
+export default async function Page() {
   return (
     <>
     <HeroSection/>
@@ -80,6 +78,8 @@ export default async function Page() {
   <PackagingSection/>
   <WhyChooseSection/>
   <CustomBoxesSection/>
+  <Benefits/>
+  <EcoFriendlySection/>
       </>
    
   )

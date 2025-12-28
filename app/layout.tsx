@@ -130,7 +130,7 @@ export default function RootLayout({ children }) {
 
         {/* PAGE CONTENT */}
         {children}
-        {/* <Footer/> */}
+        <Footer/>
       </body>
     </html>
   );

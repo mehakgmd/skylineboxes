@@ -146,7 +146,7 @@
 // export default Card
 
 
-'use client'
+"use client";
 
 import { FC } from 'react'
 import { oneProductType } from './utils/ProductArrayAndTypes'
@@ -187,7 +187,7 @@ const Card: FC<{ singleProductData: oneProductType }> = ({ singleProductData }) 
           {/* Learn More Link */}
           
            <a href={ '#'}
-            className="inline-flex items-center gap-1.5 text-orange-500 font-semibold text-sm lg:text-base hover:gap-2.5 transition-all duration-300 group/link pt-1"
+            className="inline-flex items-center gap-1.5 text-gray-800 font-semibold text-sm lg:text-base hover:gap-2.5 transition-all duration-300 group/link pt-1"
           >
             Learn More
             <svg 

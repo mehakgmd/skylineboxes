@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { LuPackageOpen, LuCircleDollarSign, LuAlarmClockPlus } from "react-icons/lu";
 import { FaTags, FaAward } from "react-icons/fa6";
@@ -33,7 +34,7 @@ export default function PackagingSection() {
   ];
 
   return (
-    <section className="relative py-20 px-6 overflow-hidden rounded-br-3xl" style={{ backgroundColor: '#e8f5e9' }}>
+    <section className="relative bg-[#2D6A73]/10 py-20 px-6 overflow-hidden rounded-br-3xl">
       {/* Decorative waves */}
       <div className="absolute top-0 left-0 w-48 h-48 opacity-20">
         <svg viewBox="0 0 200 200" className="w-full h-full">
