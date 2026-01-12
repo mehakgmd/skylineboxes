@@ -22,7 +22,7 @@ export default function EcoFriendlySection() {
               <p className="mb-6 text-[14px] text-gray-700 lg:text-lg">
                 Get your custom boxes with our easy order process!
               </p>
-              <button className="inline-flex w-fit items-center justify-center rounded-lg bg-[#FF8C42] px-8 py-3.5 text-lg font-semibold text-white shadow-md transition-all hover:bg-[#ff7a28] hover:shadow-lg">
+              <button className="inline-flex w-fit items-center justify-center rounded-lg bg-[#133342] px-8 py-3.5 text-lg font-semibold text-white shadow-md transition-all hover:bg-[#ff7a28] hover:shadow-lg">
                 Get Instant Quote
               </button>
             </div>
@@ -80,8 +80,8 @@ export default function EcoFriendlySection() {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8">
               {/* Custom Quote */}
               <div className="flex gap-4">
-                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#FFE5D3]">
-                  <svg className="h-9 w-9 text-[#FF8C42]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#caf0f8]">
+                  <svg className="h-9 w-9 text-[#133342]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
@@ -95,8 +95,8 @@ export default function EcoFriendlySection() {
 
               {/* Designing */}
               <div className="flex gap-4">
-                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#FFE5D3]">
-                  <svg className="h-9 w-9 text-[#FF8C42]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#caf0f8]">
+                  <svg className="h-9 w-9 text-[#133342]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
                   </svg>
                 </div>
@@ -110,8 +110,8 @@ export default function EcoFriendlySection() {
 
               {/* Production & Printing */}
               <div className="flex gap-4">
-                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#FFE5D3]">
-                  <svg className="h-9 w-9 text-[#FF8C42]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#caf0f8]">
+                  <svg className="h-9 w-9 text-[#133342]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                   </svg>
                 </div>
@@ -125,8 +125,8 @@ export default function EcoFriendlySection() {
 
               {/* Smooth Shipping */}
               <div className="flex gap-4">
-                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#FFE5D3]">
-                  <svg className="h-9 w-9 text-[#FF8C42]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-[#caf0f8]">
+                  <svg className="h-9 w-9 text-[#133342]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                   </svg>
                 </div>
