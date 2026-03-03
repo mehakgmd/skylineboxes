@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed left-5 right-5 mx-auto w-[85%] max-w-[1500px] bg-white z-50 rounded-full mt-[-35px] shadow-[0_8px_25px_rgba(0,0,0,0.12)] border border-gray-100">
+    <nav className="fixed left-5 right-5 mx-auto w-[85%] max-w-[1500px] bg-white/40 backdrop-blur-md z-50 rounded-full mt-[-40px] shadow-[0_8px_25px_rgba(0,0,0,0.12)] border border-gray-100">
       <div className="flex items-center justify-between px-8 py-1">
         {/* Logo */}
         <div className="flex items-center h-16">
@@ -51,7 +51,7 @@ export default function Navbar() {
                               <Link
                                 key={i}
                                 href={dropItem.href}
-                                className="flex items-center gap-3 px-4 py-3 hover:bg-[#fefbea] transition-all text-[#2c4658] font-medium"
+                                className="flex items-center gap-3 px-4 py-3 hover:bg-[#fefbea] transition-all text-black font-medium"
                               >
                                 <DropIcon />
                                 <span>{dropItem.label}</span>
@@ -74,15 +74,15 @@ export default function Navbar() {
         </div>
 
         {/* Contact button */}
-        <div className="hidden lg:block">
-          <Link href="/contact" className="contact-btn flex items-center space-x-2">
+        <div className="hidden lg:block bg-[#e0c112] rounded-full">
+          <Link href="/contact" className=" flex items-center space-x-2 px-5 py-3  text-white font-semibold hover:bg-[#d66d2b] transition-all duration-300">
             <FaPhoneAlt />
             <span>Contact Us</span>
           </Link>
         </div>
 
         {/* Mobile Menu Button */}
-        <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden text-[#2c4658]">
+        <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden text-black">
           {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
       </div>
@@ -134,19 +134,19 @@ export default function Navbar() {
                               transition={{ duration: 0.25 }}
                               className=" mt-2 rounded-xl bg-white/80 shadow-sm backdrop-blur-md border border-gray-100 overflow-hidden"
                             >
-                             {item.dropDownData?.map((dropItem, i) => {
-  const DropIcon = dropItem.icon;
-  return (
-    <Link
-      key={i}
-      href={dropItem.href}
-      className="flex items-center text-sm font-medium text-[#2c4658] hover:bg-[#fefbea] transition-all"
-    >
-      <DropIcon />
-      <span>{dropItem.label}</span>
-    </Link>
-  );
-})}
+                              {item.dropDownData?.map((dropItem, i) => {
+                                const DropIcon = dropItem.icon;
+                                return (
+                                  <Link
+                                    key={i}
+                                    href={dropItem.href}
+                                    className="flex items-center text-sm font-medium text-black hover:bg-[#fefbea] transition-all"
+                                  >
+                                    <DropIcon />
+                                    <span>{dropItem.label}</span>
+                                  </Link>
+                                );
+                              })}
 
                             </motion.div>
                           )}

@@ -34,23 +34,23 @@ export default function PackagingSection() {
   ];
 
   return (
-    <section className="relative bg-[#2D6A73]/10 py-20 px-6 overflow-hidden rounded-br-3xl">
+    <section className="relative bg-[#ece9e1] py-20 px-6 overflow-hidden rounded-br-3xl">
       {/* Decorative waves */}
       <div className="absolute top-0 left-0 w-48 h-48 opacity-20">
         <svg viewBox="0 0 200 200" className="w-full h-full">
           <path
             d="M 0,50 Q 25,30 50,50 T 100,50 T 150,50 T 200,50 L 200,0 L 0,0 Z"
-            fill="#133342"
+            fill="#e0c112"
             opacity="0.3"
           />
           <path
             d="M 0,80 Q 25,60 50,80 T 100,80 T 150,80 T 200,80 L 200,0 L 0,0 Z"
-            fill="#133342"
+            fill="#e0c112"
             opacity="0.2"
           />
           <path
             d="M 0,110 Q 25,90 50,110 T 100,110 T 150,110 T 200,110 L 200,0 L 0,0 Z"
-            fill="#133342"
+            fill="#e0c112"
             opacity="0.1"
           />
         </svg>
@@ -60,29 +60,29 @@ export default function PackagingSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#133342' }}>
+            <h2 className="text-4xl text-black md:text-5xl font-bold mb-6">
               Fast & Reliable Custom Packaging Boxes
             </h2>
-            
+
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p>
                 We're on a mission to help companies, large and small, harness the potential of{' '}
-                <span className="font-semibold" style={{ color: '#133342' }}>custom packaging</span>. 
-                We firmly believe that creative packaging can do way more than just protect your products. 
+                <span className="font-semibold" style={{ color: '#e0c112' }}>custom packaging</span>.
+                We firmly believe that creative packaging can do way more than just protect your products.
                 It can be a conversation starter for your brand.
               </p>
-              
+
               <p>
-                Get high-quality custom printed boxes that you can customize from corner to corner: 
-                the shape, color, artwork, texture and size. With a low minimum quantity starting from 
-                100 boxes, your custom box order will be shipped flat and arrive within 8-10 business 
+                Get high-quality custom printed boxes that you can customize from corner to corner:
+                the shape, color, artwork, texture and size. With a low minimum quantity starting from
+                100 boxes, your custom box order will be shipped flat and arrive within 8-10 business
                 days or sooner with expedited shipping.
               </p>
-              
+
               <p>
-                Together, we'll revolutionize your custom printed box strategy - at a price you'll love. 
+                Together, we'll revolutionize your custom printed box strategy - at a price you'll love.
                 Let your creative streak run wild and unbox your brand's latest asset with{' '}
-                <span className="font-semibold" style={{ color: '#133342' }}>custom boxes</span>. 
+                <span className="font-semibold" style={{ color: '#e0c112' }}>custom boxes</span>.
                 No matter the idea, logo, artwork, shape or size of your box, nothing is out of reach.
               </p>
             </div>
@@ -93,7 +93,7 @@ export default function PackagingSection() {
             {/* Premium decorative shapes behind cards */}
             <div className="absolute inset-0 pointer-events-none" style={{ zIndex: 0 }}>
               {/* Soft gradient blob 1 */}
-              <div 
+              <div
                 className="absolute rounded-full blur-3xl opacity-30"
                 style={{
                   width: '300px',
@@ -103,33 +103,33 @@ export default function PackagingSection() {
                   right: '-10%',
                 }}
               />
-              
+
               {/* Soft gradient blob 2 */}
-              <div 
+              <div
                 className="absolute rounded-full blur-3xl opacity-25"
                 style={{
                   width: '350px',
                   height: '350px',
-                  background: 'radial-gradient(circle, rgba(19, 51, 66, 0.12) 0%, rgba(19, 51, 66, 0.04) 50%, transparent 100%)',
+                  background: 'radial-gradient(circle, rgba(247,148,29,0.22) 0%, rgba(247,148,29,0.22) 50%, transparent 100%)',
                   bottom: '5%',
                   left: '-15%',
                 }}
               />
-              
+
               {/* Elegant curved lines */}
-              <svg 
-                className="absolute inset-0 w-full h-full" 
+              <svg
+                className="absolute inset-0 w-full h-full"
                 viewBox="0 0 500 700"
                 preserveAspectRatio="none"
               >
                 <defs>
                   <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style={{ stopColor: '#133342', stopOpacity: 0.08 }} />
-                    <stop offset="50%" style={{ stopColor: '#133342', stopOpacity: 0.15 }} />
-                    <stop offset="100%" style={{ stopColor: '#133342', stopOpacity: 0.08 }} />
+                    <stop offset="0%" style={{ stopColor: '#e0c112', stopOpacity: 0.08 }} />
+                    <stop offset="50%" style={{ stopColor: '#e0c112', stopOpacity: 0.15 }} />
+                    <stop offset="100%" style={{ stopColor: '#e0c112', stopOpacity: 0.08 }} />
                   </linearGradient>
                 </defs>
-                
+
                 {/* Smooth flowing curve */}
                 <path
                   d="M -50,150 Q 150,100 300,180 T 550,200"
@@ -138,7 +138,7 @@ export default function PackagingSection() {
                   fill="none"
                   strokeLinecap="round"
                 />
-                
+
                 <path
                   d="M -80,400 Q 200,350 350,420 T 600,450"
                   stroke="url(#lineGradient)"
@@ -158,29 +158,29 @@ export default function PackagingSection() {
                     <div
                       key={index}
                       className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center"
-                      style={{ 
-                        border: '1px solid rgba(19, 51, 66, 0.1)',
+                      style={{
+                        border: '1px solid rgba(247,148,29,0.22)',
                       }}
                     >
-                      <div 
+                      <div
                         className="w-16 h-16 rounded-full flex items-center justify-center mb-4"
-                        style={{ backgroundColor: 'rgba(19, 51, 66, 0.1)' }}
+                        style={{ backgroundColor: 'rgba(247,148,29,0.22)' }}
                       >
-                        <Icon 
-                          size={32} 
-                          style={{ color: '#133342' }}
+                        <Icon
+                          size={32}
+                          style={{ color: '#e0c112' }}
                           strokeWidth={2}
                         />
                       </div>
-                      <h3 
+                      <h3
                         className="font-bold text-lg mb-1"
-                        style={{ color: '#133342' }}
+                        style={{ color: '#000000' }}
                       >
                         {feature.title}
                       </h3>
-                      <p 
+                      <p
                         className="font-bold text-lg"
-                        style={{ color: '#133342' }}
+                        style={{ color: '#000000' }}
                       >
                         {feature.subtitle}
                       </p>
@@ -197,30 +197,30 @@ export default function PackagingSection() {
                     <div
                       key={index + 3}
                       className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center"
-                      style={{ 
-                        border: '1px solid rgba(19, 51, 66, 0.1)',
+                      style={{
+                        border: '1px solid rgba(247,148,29,0.22)',
                         width: 'calc(33.333% - 1rem)'
                       }}
                     >
-                      <div 
+                      <div
                         className="w-16 h-16 rounded-full flex items-center justify-center mb-4"
-                        style={{ backgroundColor: 'rgba(19, 51, 66, 0.1)' }}
+                        style={{ backgroundColor: 'rgba(247,148,29,0.22)' }}
                       >
-                        <Icon 
-                          size={32} 
-                          style={{ color: '#133342' }}
+                        <Icon
+                          size={32}
+                          style={{ color: '#e0c112' }}
                           strokeWidth={2}
                         />
                       </div>
-                      <h3 
+                      <h3
                         className="font-bold text-lg mb-1"
-                        style={{ color: '#133342' }}
+                        style={{ color: '#000000' }}
                       >
                         {feature.title}
                       </h3>
-                      <p 
+                      <p
                         className="font-bold text-lg"
-                        style={{ color: '#133342' }}
+                        style={{ color: '#000000' }}
                       >
                         {feature.subtitle}
                       </p>

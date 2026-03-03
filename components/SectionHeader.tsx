@@ -11,20 +11,20 @@ interface SectionHeaderProps {
   onButtonClick?: () => void
 }
 
-const SectionHeader: FC<SectionHeaderProps> = ({ 
-  label, 
-  title, 
-  description, 
-  buttonText, 
+const SectionHeader: FC<SectionHeaderProps> = ({
+  label,
+  title,
+  description,
+  buttonText,
   buttonLink,
-  onButtonClick 
+  onButtonClick
 }) => {
   return (
     <div className="mb-10 lg:mb-14">
       <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
         <div className="max-w-3xl">
           {label && (
-            <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+            <p className="text-sm font-semibold text-grey-400 uppercase tracking-wide mb-3">
               {label}
             </p>
           )}
@@ -37,14 +37,14 @@ const SectionHeader: FC<SectionHeaderProps> = ({
         </div>
         {buttonText && (
           buttonLink ? (
-            <a 
+            <a
               href={buttonLink}
-              className="bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300 whitespace-nowrap self-start lg:self-auto"
+              className="bg-gold text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300 whitespace-nowrap self-start lg:self-auto"
             >
               {buttonText}
             </a>
           ) : (
-            <button 
+            <button
               onClick={onButtonClick}
               className="bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300 whitespace-nowrap self-start lg:self-auto"
             >

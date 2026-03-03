@@ -22,7 +22,7 @@ export default function CustomBoxesSection() {
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
               3 Main Types of Custom Boxes for Businesses
             </h2>
-            
+
             <p className="text-gray-700 text-[14px] leading-relaxed">
               There are 3 main types of custom packaging boxes, each can be designed to meet specific business needs, including:
             </p>
@@ -31,23 +31,23 @@ export default function CustomBoxesSection() {
               <li className="flex items-start">
                 <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gray-400 mt-2.5 mr-3"></div>
                 <div>
-                  <span className="font-bold text-[#1F4A4D] text-lg">Folding Cartons:</span>
+                  <span className="font-bold text-goldDark text-lg">Folding Cartons:</span>
                   <span className="text-gray-700 text-[14px]"> Highly flexible in various styles, sizes, and shapes, ideal for retail product packaging.</span>
                 </div>
               </li>
-              
+
               <li className="flex items-start">
                 <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gray-400 mt-2.5 mr-3"></div>
                 <div>
-                  <span className="font-bold text-[#1F4A4D] text-lg">Shipping Boxes:</span>
+                  <span className="font-bold text-goldDark text-lg">Shipping Boxes:</span>
                   <span className="text-gray-700 text-[14px]"> Exclusively designed boxes to ensure safe shipping and minimize product damage.</span>
                 </div>
               </li>
-              
+
               <li className="flex items-start">
                 <div className="flex-shrink-0 w-2 h-2 rounded-full bg-gray-400 mt-2.5 mr-3"></div>
                 <div>
-                  <span className="font-bold text-[#1F4A4D] text-lg">Mailer Boxes:</span>
+                  <span className="font-bold text-goldDark text-lg">Mailer Boxes:</span>
                   <span className="text-gray-700 text-[14px]"> Compact and space-saving boxes for shipping small products, subscriptions, and promotional items.</span>
                 </div>
               </li>
@@ -57,7 +57,7 @@ export default function CustomBoxesSection() {
               Including custom boxes in your packaging strategy helps you protect your products and deliver a powerful brand experience.
             </p>
 
-            <button className="bg-[#1F4A4D] hover:bg-[#284b63] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 mt-4">
+            <button className="bg-gold hover:bg-gold text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 mt-4">
               Get customized boxes
             </button>
           </div>

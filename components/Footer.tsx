@@ -3,26 +3,26 @@ import { FaFacebookF, FaTwitter, FaYoutube, FaWordpressSimple } from "react-icon
 
 export default function Footer() {
   return (
-    <footer className="bg-[#133342] text-white py-12 rounded-t-[60px]">
+    <footer className="bg-gold text-white py-12 rounded-t-[60px]">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         {/* Logo & Description */}
-       <div>
-  <div className="flex items-center gap-3 mb-4">
-    <img
-      src="/Logo/Logo.png"
-      alt="Packega logo"
-      className="h-12 w-auto object-contain"
-    />
-  </div>
-  <p className="text-gray-300 text-sm leading-relaxed max-w-xs">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
-  </p>
-</div>
+        <div>
+          <div className="flex items-center gap-3 mb-4">
+            <img
+              src="/Logo/Logo.png"
+              alt="Packega logo"
+              className="h-12 w-auto object-contain"
+            />
+          </div>
+          <p className="text-gray-300 text-sm leading-relaxed max-w-xs">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+          </p>
+        </div>
 
         {/* Company */}
         <div>
           <h3 className="text-lg font-bold mb-4">Company</h3>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 text-black">
             <li><a href="#">Terms & Conditions</a></li>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Project Protections</a></li>
@@ -33,7 +33,7 @@ export default function Footer() {
         {/* About */}
         <div>
           <h3 className="text-lg font-bold mb-4">About</h3>
-          <ul className="space-y-2 text-gray-300">
+          <ul className="space-y-2 text-black">
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Home</a></li>

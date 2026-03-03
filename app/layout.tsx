@@ -88,7 +88,7 @@
 
 //   </div>
 // </div>
-        
+
 
 //         {/* Main Content */}
 //         <main className="flex-grow">{children}</main>
@@ -106,9 +106,8 @@
 import "./globals.css";
 import TopBar from "@/components/Topbar";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
@@ -120,17 +119,13 @@ export default function RootLayout({ children }) {
           <Navbar className="sticky top-0 z-50" />
         </div> */}
 
-        <div className="relative bg-[#ffff] bg-gradient-to-b from-[#ffff] to-[#ffff] pb-14">
-  
-  <div className="sticky top-0 z-50 bg-[#ffff]">
-    <Navbar />
-  </div>
 
-</div>
+        <Navbar />
+
 
         {/* PAGE CONTENT */}
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   );
