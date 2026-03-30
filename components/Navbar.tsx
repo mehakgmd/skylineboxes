@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaBars, FaTimes, FaChevronDown, FaPhoneAlt } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavbarArray, NavbarItemType } from "@/components/utils/NavbarArrayAndTypes";
+import GlowButton from "./Button";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,8 +19,8 @@ export default function Navbar() {
       <div className="flex items-center justify-between px-8 py-1">
         {/* Logo */}
         <div className="flex items-center h-16">
-          <div className="h-32 w-32 flex items-center justify-center overflow-hidden">
-            <img src="/Logo/Logo.png" alt="Packega logo" className="h-full w-auto object-contain scale-125" />
+          <div className="h-32 w-32 flex items-center justify-center overflow-hidden pt-3">
+            <img src="/Logo/Logo-2.png" alt="Packega logo" className="h-full w-auto object-contain scale-125" />
           </div>
         </div>
 
